@@ -16,14 +16,51 @@ using UnityEngine;
 
 // Ensures correct app and scene setup.
 public class DemoSceneManager : MonoBehaviour {
-  void Start() {
-    Input.backButtonLeavesApp = true;
-  }
+	
+	public GameObject PlaneObject;
 
-  void Update() {
-    // Exit when (X) is tapped.
-    if (Input.GetKeyDown(KeyCode.Escape)) {
-      Application.Quit();
-    }
-  }
+	void Start() {
+		Input.backButtonLeavesApp = true;
+//		CreateMeshSph÷ere ();
+	}
+
+	void Update() {
+		// Exit when (X) is tapped.
+		if (Input.GetKeyDown(KeyCode.Escape)) {
+		  Application.Quit();
+		}
+	}
+
+	void CreateMeshSphere(){
+		GameObject prevObj = PlaneObject;
+		float rotation = 0;
+		float rotationIncriment = 20;
+
+		while (rotation <= 360) {
+			rotation += rotationIncriment;
+	
+			GameObject currObj = Instantiate(prevObj, prevObj.transform);
+			currObj.transform.parent = PlaneObject.transform; 
+			currObj.transform.localScale = Vector3.one; 
+
+
+
+			currObj.transform.eulerAngles = new Vector3(
+				prevObj.transform.eulerAngles.x,
+				prevObj.transform.eulerAngles.y,
+				prevObj.transform.eulerAngles.z + rotationIncriment
+			);
+
+			currObj.transform.position = new Vector3(
+				prevObj.transform.position.x + 1,
+				prevObj.transform.position.y,
+				prevObj.transform.position.z
+			);
+
+
+
+			prevObj = currObj;
+		}
+
+	}
 }
