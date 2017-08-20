@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: ccf2753c628ae46938c121e4dbfe657c
+timeCreated: 1503245747
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Calibre
+  fontNames:
+  - Calibre
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1d4d2b5154e9640718b5ea1cf56b9d3c, type: 3}
+  - {fileID: 12800000, guid: 97c731529d1fa4e1f9545ab42e937e3c, type: 3}
+  - {fileID: 12800000, guid: c2a8bff3641d149babaddb9a18f974a7, type: 3}
+  - {fileID: 12800000, guid: 677759241101446498d7918a2e012626, type: 3}
+  - {fileID: 12800000, guid: 7ccf66a67f0ed44239c999d4bf29c18e, type: 3}
+  - {fileID: 12800000, guid: 1836352a91ebe469b9ccf744b1219331, type: 3}
+  - {fileID: 12800000, guid: c8cab79beff534d8899d50d74cd8a4e8, type: 3}
+  - {fileID: 12800000, guid: 3940bc3c997b8476b8458d1c4e337733, type: 3}
+  - {fileID: 12800000, guid: b0b8b9cc0ba1a45f0994d72a635e4d7c, type: 3}
+  - {fileID: 12800000, guid: a231eb5ed88a14627a55db2d03eac6b1, type: 3}
+  - {fileID: 12800000, guid: a5ed502f2dbdd428c8aac3f2b42adff9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

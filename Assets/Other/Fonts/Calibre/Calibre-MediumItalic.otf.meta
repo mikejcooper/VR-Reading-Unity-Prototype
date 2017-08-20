@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1836352a91ebe469b9ccf744b1219331
+timeCreated: 1503245747
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Calibre
+  fontNames:
+  - Calibre
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

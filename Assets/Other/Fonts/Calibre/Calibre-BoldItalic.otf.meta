@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 7ccf66a67f0ed44239c999d4bf29c18e
+timeCreated: 1503245747
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Calibre
+  fontNames:
+  - Calibre
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1d4d2b5154e9640718b5ea1cf56b9d3c, type: 3}
+  - {fileID: 12800000, guid: 677759241101446498d7918a2e012626, type: 3}
+  - {fileID: 12800000, guid: 1836352a91ebe469b9ccf744b1219331, type: 3}
+  - {fileID: 12800000, guid: 3940bc3c997b8476b8458d1c4e337733, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

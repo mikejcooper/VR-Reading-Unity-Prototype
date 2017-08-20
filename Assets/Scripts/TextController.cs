@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class ChangeText : MonoBehaviour {
+public class TextController : MonoBehaviour {
 
 	public Text TextCanvas;
 
@@ -38,7 +38,21 @@ public class ChangeText : MonoBehaviour {
 		}
 	}
 
+	public void LoadDictionary(string[,] CSVData){
+		for(int i = 0; i < CSVData.Length; i++) {
+//			print (CSVData[i]);
+		}
+	
+	}
+		
+
 	private void OnChangeText(string text){
 		TextCanvas.text = text;
 	}
+
+
+
+
+
+
 }

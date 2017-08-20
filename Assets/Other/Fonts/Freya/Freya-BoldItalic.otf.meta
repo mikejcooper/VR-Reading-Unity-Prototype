@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 72e8e940ca37e46b18d50c871433f8a5
+timeCreated: 1503245747
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Freya
+  fontNames:
+  - Freya
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0e141571c72b249978c1afd18d63d82c, type: 3}
+  - {fileID: 12800000, guid: 1f353b3c8ccd64541853f213dd376659, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

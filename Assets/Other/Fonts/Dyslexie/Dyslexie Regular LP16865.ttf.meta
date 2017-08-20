@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b09ac448940b54a5a8522b770fa0d94b
+timeCreated: 1503245747
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Dyslexie
+  fontNames:
+  - Dyslexie
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
