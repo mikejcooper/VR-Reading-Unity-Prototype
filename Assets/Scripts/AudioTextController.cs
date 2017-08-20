@@ -14,11 +14,8 @@ public class AudioTextController : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		audioController = new AudioController ();
-			
-		CSVReader.DebugOutputGrid( CSVReader.SplitCsvGrid(CSV.text) ); 
 
-
-		textController.LoadDictionary( CSVReader.SplitCsvGrid(CSV.text) ) ; 
+		textController.LoadDictionary( CSVReader.CSVtoData(CSV.text) ) ; 
 			
 	}
 	

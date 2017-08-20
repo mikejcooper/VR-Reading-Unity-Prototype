@@ -18,17 +18,9 @@ public class TextController : MonoBehaviour {
 //		"Of course she did. This is the day of the reaping."
 //	];
 
-	private 
-
 	// Use this for initialization
 	void Start () {
 		OnChangeText ("testing 123");
-
-
-		_dictionary.Add(0.02, "When I wake up, the other side of the bed is cold.");
-		_dictionary.Add(0.04, "My fingers stretch out, seeking Prim’s warmth but finding only the rough canvas cover of the mattress.");
-		_dictionary.Add(0.08, "She must have had bad dreams and climbed in with our mother.");
-		_dictionary.Add(0.12, "Of course she did. This is the day of the reaping.");
 
 
 		double key = 0.02;
@@ -38,11 +30,10 @@ public class TextController : MonoBehaviour {
 		}
 	}
 
-	public void LoadDictionary(string[,] CSVData){
-		for(int i = 0; i < CSVData.Length; i++) {
-//			print (CSVData[i]);
+	public void LoadDictionary(List<SentencePacketData> data){
+		foreach (var data_i in data) {
+			_dictionary.Add (data_i.startTime, data_i.sentenceEng);
 		}
-	
 	}
 		
 
