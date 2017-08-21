@@ -70,12 +70,13 @@ public class GvrLaserPointer : MonoBehaviour {
 
   public Vector3 LineStartPoint {
     get {
-      return laserPointerImpl != null ? laserPointerImpl.PointerTransform.position : Vector3.zero;
+			return laserPointerImpl != null ? laserPointerImpl.PointerTransform.position : Vector3.zero;
     }
   }
 
   public Vector3 LineEndPoint {
-    get { return laserPointerImpl != null ? laserPointerImpl.LineEndPoint : Vector3.zero; } }
+		get { return laserPointerImpl != null ? laserPointerImpl.LineEndPoint : Vector3.zero; }
+	}
 
   public LineRenderer LineRenderer {
     get { return laserPointerImpl != null ? laserPointerImpl.LaserLineRenderer : null; }

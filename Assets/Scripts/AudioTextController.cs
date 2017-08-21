@@ -7,17 +7,26 @@ public class AudioTextController : MonoBehaviour
 	public TextAsset CSV; 
 	public TextController textController;
 
-	private AudioController audioController;
+	public AudioController audioController;
 
 
 
 	// Use this for initialization
 	void Start () {
-		audioController = new AudioController ();
 
 		textController.LoadDictionary( CSVReader.CSVtoData(CSV.text) ) ; 
+		audioController.begin ();
 			
 	}
+
+	// Update is called once per frame
+	void Update ()
+	{
+		int currentAudioTime = audioController.getCurrentTime ();
+		textController.showTextNearestToTimeT (currentAudioTime);	
+	}
+
+
 	
 	// Update is called once per frame
 	void StartFromTimeX () {

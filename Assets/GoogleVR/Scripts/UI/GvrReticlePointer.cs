@@ -33,7 +33,9 @@ public class GvrReticlePointer : MonoBehaviour {
 
   void Start() {
     reticlePointerImpl.OnStart();
-    reticlePointerImpl.MaterialComp = gameObject.GetComponent<Renderer>().material;
+	Material m = gameObject.GetComponent<Renderer>().material;
+	m.color = new Color (m.color.r, m.color.g, m.color.b, 0.25f);
+    reticlePointerImpl.MaterialComp = m;
     UpdateReticleProperties();
     CreateReticleVertices();
   }

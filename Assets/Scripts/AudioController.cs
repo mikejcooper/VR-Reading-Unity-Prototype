@@ -8,11 +8,14 @@ public class AudioController : MonoBehaviour
 
 	private float _maxVol;
 
+	void Start(){
+	}
 
-	void Start()
+	public void begin()
 	{
+		
 		_maxVol = 1.0f;
-//		SetAudioTimePosition(13.21f);
+		SetAudioTimePosition(20.0f);
 //		Play ();
 
 		StartCoroutine(fadeIn());
@@ -36,6 +39,10 @@ public class AudioController : MonoBehaviour
 
 	public void SetAudioTimePosition(float time){
 		Audio.time = time;
+	}
+
+	public int getCurrentTime(){
+		return (int) Audio.time * 1000;
 	}
 
 	IEnumerator fadeIn()

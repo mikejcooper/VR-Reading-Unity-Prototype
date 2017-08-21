@@ -98,7 +98,7 @@ public class GvrReticlePointerImpl : GvrBasePointer {
   /// The intersectionRay is the ray that was cast to determine the intersection.
   public override void OnPointerHover(RaycastResult rayastResult, Ray ray,
     bool isInteractive) {
-    SetPointerTarget(rayastResult.worldPosition, isInteractive);
+		SetPointerTarget(rayastResult.worldPosition, isInteractive);
   }
 
   /// Called when the user's look no longer intersects an object previously

@@ -20,7 +20,7 @@ public class FollowCamera : MonoBehaviour {
 		time += Time.deltaTime;
 
 		if (time >= interpolationPeriod) {
-			Debug.Log (time);
+//			Debug.Log (time);
 			time = time - interpolationPeriod;
 
 
